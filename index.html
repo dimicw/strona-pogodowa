@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaawansowane Technologie Internetowe - Lab2</title>
+</head>
+<body>
+    <header>
+        <h1>Aplikacja pogodowa</h1>
+    </header>
+
+    <main>
+        <div class="weather-top">
+            <input type="text" placeholder="podaj nazwę miasta">
+            <button>Sprawdź pogodę!</button>
+            <p class="error"></p>
+        </div>
+
+        <div class="weather-bottom">
+            <h2 class="city-name"></h2>
+            <div>
+                <div>
+                    <img src="" alt="">
+                    <p class="temperature"></p>
+                </div>
+                <p class="weather-description"></p>
+            </div>
+            <p>Temperatura odczuwalna: <span class="feels-like"></span></p>
+            <p>Prędkość wiatru: <span class="wind-speed"></span></p>
+            <p>Zachmurzenie: <span class="cloud"></span></p>
+            <p>Ciśnienie: <span class="pressure"></span></p>
+            <p>Wilgotność: <span class="humidity"></span></p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="script.js"></script></body>
+</html>
